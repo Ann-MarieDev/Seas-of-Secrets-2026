@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------------------------
+References
+------------------------------------------------------------------------------------------------------------
+Scaling in SOS:
+This is used for tilesets, objects, and people as a reference so you do not make things too big or too small:
+48px by 48px 
+NOTE
+Most items/small objects are half or ⅓ of a (48px) box
+------------------------------------------------------------------------------------------------------------
+Room Layering
+(folder) assets/
+├── particles/
+├── colliders/
+├── warps/
+
+(folder) main/
+├── filters/
+├── lighting_top/
+├── player/
+├── objects/
+
+(folder) environment/
+├── lighting_bottom/
+├── detail/
+├── walls (indoor)/
+├── floor/
+----Background 
+
+Guide to layers:
+Assets folder:
+Filters: Add as many filter layers as you need in this section, for adding different effects over the room. 
+Particles: For things like rain, dust, any particles etc.
+Colliders: For walls, keeping players out of certain areas.
+Warps: For warps that move you from room to room.
+
+Main:
+Lighting_top: For rays of light that you want the player to be able to have a effect on (on top of the character-- more realistic)
+Player: This is where the players character is going to be.
+Objects: For room objects, ex: Sofa, table, etc.
+
+Environment:
+Lighting_bottom: The lighting on the floor, so the player can have a more realistic lighting effect.
+Detail: Very top layer when using tiles (little grass designs, photos on walls, etc).
+Walls: For walls indoor if needed.
+Floor: The floors in the room.
+------------------------------------------------------------------------------------------------------------
